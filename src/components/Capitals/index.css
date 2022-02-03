@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.bg {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  background-color: #f8fafc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.head {
+  color: #323f4b;
+}
+
+.question-box {
+  display: flex;
+  align-items: center;
+}
+
+.answer {
+  color: #323f4b;
+  align-self: flex-start;
+  font-size: 26px;
+}
+
+.options-card {
+  border: 1px solid #cbd2d9;
+  outline: none;
+  width: 170px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-weight: bold;
+}
